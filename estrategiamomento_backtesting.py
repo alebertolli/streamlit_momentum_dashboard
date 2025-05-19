@@ -82,7 +82,7 @@ def crear_conexion(db_file):
 # 5. Obtener Lista de Activos
 
 def obtener_activos(db_file):
-       activos = ['SPY', 'QQQ', 'GLD', 'EEM', 'FXI', 'EWZ', 'XLF', 'XLC', 'IEUR', 'XLY', 'VEA', 'XLRE', 'XLB', 'IVE', 'IVW']
+       activos = ['SPY', 'QQQ', 'GLD', 'EEM', 'FXI', 'XLF', 'XLC', 'IEUR', 'XLY', 'VEA', 'XLRE', 'XLB', 'IVE', 'IVW']
        return activos
 
 """
@@ -427,7 +427,7 @@ def escribir_google_sheets(df_selecciones, df_metricas_activos, client, creds, o
 # 16. Main
 def main():
     db_file = '/content/drive/MyDrive/Colab Notebooks/EstrategiaMomento/precios_activos_mensual.db'
-    creds_file = '/content/drive/MyDrive/Colab Notebooks/EstrategiaMomento/importfromapi-33fbea8a3fc7.json'
+    creds_file = '/content/drive/MyDrive/Colab Notebooks/EstrategiaMomento/importfromapi-c1f7294cbbea.json'
     output_dir = montar_drive()
     
     # Autenticar con Google Sheets
